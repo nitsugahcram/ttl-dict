@@ -21,18 +21,16 @@ class CleanCommand(Command):
 
 setup(
     zip_safe=True,
-    name="ttldict",
+    name="ttl-dict",
     version="1.0.0",
     description=("Python dict with TTL support for auto-expiring."),
     keywords='',
     license="MIT License",
     packages=find_packages(exclude=['contrib', 'docs', 'tests*', 'examples*']),
-    url='/.git',
+    url='git@github.com:nitsugahcram/ttl-dict.git',
     author='Agustin March',
     author_email='agusti.march@gmail.com',
-    long_description='Python application to consume tracess from'
-    'the databus and classified that trace This'
-    'package is intented to be used inside the smarttraces service.',
+    long_description='',
     python_requires='>=2.6, !=3.0.*, !=3.1.*, !=3.2.*, <4',
     install_requires=[
     ],
