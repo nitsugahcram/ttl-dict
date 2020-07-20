@@ -1,0 +1,76 @@
+{
+	"folders": [
+		{
+			"name": "TTL Dictionary",
+			"path": ".",
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"2gua.rainbow-brackets",
+			"DavidAnson.vscode-markdownlint",
+			"IBM.output-colorizer",
+			"be5invis.toml",
+			"bungcip.better-toml",
+			"donjayamanne.githistory",
+			"eamodio.gitlens",
+			"linw1995.python-traceback-jumper",
+			"magicstack.MagicPython",
+			"mikestead.dotenv",
+			"ms-python.python",
+			"redhat.vscode-yaml",
+			"silverbulleters.gherkin-autocomplete",
+			"ms-vscode-remote.vscode-remote-extensionpack",
+			"hbenl.vscode-test-explorer",
+			"littlefoxteam.vscode-python-test-adapter"
+		]
+	},
+	"settings": {
+		"editor.renderWhitespace": "boundary",
+		"files.exclude": {
+			"**/.git": true,
+			"**/.venv": false,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/__pycache__": true,
+			"**/.ipynb_checkpoints": true,
+			"**/eggs": true,
+			"**/*.egg": true,
+			"**/*.egg-info": true,
+			"**/.install": true,
+			"**/.cache": true,
+			"**/.eggs": true,
+			"**/*.pyc": true,
+			"**/.ropeproject": true,
+			"**/.composer_*": true
+		},
+		"files.watcherExclude": {
+			"**/.git/objects/**": true,
+			"**/.git/subtree-cache/**": true,
+			"**/node_modules/*/**": true,
+			"**/.ipynb_checkpoints/**": true
+		},
+		"files.associations": {
+			"Makefile*": "makefile",
+			".vars.*": "dotenv"
+		},
+		"editor.formatOnSave": true,
+		"python.formatting.provider": "yapf",
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.fontFamily": "'mononoki-Regular Nerd Font Complete Mono', 'Overpass Heavy Nerd Font Complete Mono', Menlo, Monaco, 'Courier New', monospace",
+		"editor.fontLigatures": true,
+		"editor.fontSize": 16,
+		"workbench.fontAliasing": "antialiased",
+		"terminal.integrated.fontSize": 14,
+		"editor.minimap.enabled": false,
+		"pythonTestExplorer.testFramework": "pytest",
+		"python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
+		"python.testing.pytestEnabled": true,
+		"python.testing.autoTestDiscoverOnSaveEnabled": true,
+		"python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+		"rst.preview.pythonPath": "${workspaceFolder}/.venv/bin/python",
+		"python.sortImports.path": "${workspaceFolder}/.venv/bin/isort"
+	}
+}
