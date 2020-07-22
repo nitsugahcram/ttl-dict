@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pep8 = {version = "*", index = "pypi"}
+prospector = {extras = ["with-everything"], version = "*", index = "pypi"}
+pyflakes = {version = "*", index = "pypi"}
+pylint = {version = "*", index = "pypi"}
+pytest = {version = "*", index = "pypi"}
+pytest-cov = {version = "*", index = "pypi"}
+pytest-html = {version = "*", index = "pypi"}
+pytest-mock = {version = "*", index = "pypi"}
+pytest-profiling = {version = "*", index = "pypi"}
+rope = {version = "*", index = "pypi"}
+yapf = {version = "*", index = "pypi"}
+
+[packages]
+
+[requires]
+python_version = "3.7"
