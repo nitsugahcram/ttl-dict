@@ -22,7 +22,7 @@ class CleanCommand(Command):
 setup(
     zip_safe=True,
     name="ttl-dict",
-    version="1.0.0",
+    version="1.0.2",
     description=("Python dict with TTL support for auto-expiring."),
     keywords='',
     license="MIT License",
@@ -38,8 +38,7 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "License :: OSI Approved :: MIT License",
         "Topic :: Software Development :: Build Tools",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3",
+       "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.6"
     ],
     cmdclass={
