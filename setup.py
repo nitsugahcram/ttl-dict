@@ -31,15 +31,14 @@ setup(
     author='Agustin March',
     author_email='agusti.march@gmail.com',
     long_description='',
-    python_requires='>=2.6, !=3.0.*, !=3.1.*, !=3.2.*, <4',
+    python_requires='>=3.8,<4',
     install_requires=[
     ],
     classifiers=[
         "Topic :: Software Development :: Libraries :: Python Modules",
         "License :: OSI Approved :: MIT License",
         "Topic :: Software Development :: Build Tools",
-       "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6"
+        "Programming Language :: Python :: 3.11"
     ],
     cmdclass={
         'clean': CleanCommand,

@@ -2,16 +2,16 @@ name: Run Tests
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.8, 3.9, 3.10, 3.11, 3.12]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -47,3 +47,4 @@ jobs:
           files: coverage.xml
           flags: unittests
           name: codecov-umbrella
+
