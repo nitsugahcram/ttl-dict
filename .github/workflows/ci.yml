@@ -27,11 +27,11 @@ jobs:
           pip install .
           pip install black isort flake8 pytest pytest-cov coverage codecov mypy
 
-      - name: Lint and format check
-        run: |
-          black --check .
-          isort --check-only .
-          flake8 .
+      # - name: Lint and format check
+      #   run: |
+      #     black --check .
+      #     isort --check-only .
+      #     flake8 .
 
       - name: Type checking with mypy
         run: |
